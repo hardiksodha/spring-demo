@@ -6,12 +6,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("v1")
-public class HelloController {
+@RequestMapping("v2")
+public class HelloControllerV2 {
 
     @GetMapping("")
     public String index() {
-        return "Version V1";
+        return "Version V2";
     }
 
 }
